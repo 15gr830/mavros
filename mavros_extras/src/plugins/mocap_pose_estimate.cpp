@@ -98,8 +98,8 @@ private:
 		mocap_pose_send(pose->header.stamp.toNSec() / 1000,
 				q,
 				pose->pose.position.x,
-				-pose->pose.position.y,
-				-pose->pose.position.z);
+				pose->pose.position.y,
+				pose->pose.position.z);
 	}
 
 	void mocap_tf_cb(const geometry_msgs::TransformStamped::ConstPtr &trans)
