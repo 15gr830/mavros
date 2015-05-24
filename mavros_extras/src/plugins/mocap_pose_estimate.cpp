@@ -99,7 +99,7 @@ private:
 				q,
 				pose->pose.position.x,
 				pose->pose.position.y,
-				-pose->pose.position.z);
+				pose->pose.position.z);
 	}
 
 	void mocap_tf_cb(const geometry_msgs::TransformStamped::ConstPtr &trans)
