@@ -47,7 +47,7 @@ def do_int(args):
                      current=int(args.current),
                      autocontinue=int(args.autocontinue),
                      param1=args.param1,
-                     param2=args.param2,
+                     param2=args.param2,,
                      param3=args.param3,
                      param4=args.param4,
                      x=args.x,
